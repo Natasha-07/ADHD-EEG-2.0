@@ -1,0 +1,716 @@
+{
+  "scenario": "combined_holdout",
+  "protocol": "deep_subject_safe_combined_v1",
+  "seed": 42,
+  "epoch_seconds": 2,
+  "overlap": 0.5,
+  "test_size": 0.2,
+  "val_size": 0.1,
+  "train_age_group": "all",
+  "test_age_group": "all",
+  "train_subjects": [
+    {
+      "subject_id": "child_control_7",
+      "label": "Control",
+      "age_group": "child"
+    },
+    {
+      "subject_id": "child_adhd_20",
+      "label": "ADHD",
+      "age_group": "child"
+    },
+    {
+      "subject_id": "child_adhd_55",
+      "label": "ADHD",
+      "age_group": "child"
+    },
+    {
+      "subject_id": "child_control_55",
+      "label": "Control",
+      "age_group": "child"
+    },
+    {
+      "subject_id": "child_adhd_30",
+      "label": "ADHD",
+      "age_group": "child"
+    },
+    {
+      "subject_id": "child_adhd_10",
+      "label": "ADHD",
+      "age_group": "child"
+    },
+    {
+      "subject_id": "adult_control_6",
+      "label": "Control",
+      "age_group": "adult"
+    },
+    {
+      "subject_id": "adult_adhd_3",
+      "label": "ADHD",
+      "age_group": "adult"
+    },
+    {
+      "subject_id": "child_adhd_39",
+      "label": "ADHD",
+      "age_group": "child"
+    },
+    {
+      "subject_id": "child_adhd_12",
+      "label": "ADHD",
+      "age_group": "child"
+    },
+    {
+      "subject_id": "adult_control_5",
+      "label": "Control",
+      "age_group": "adult"
+    },
+    {
+      "subject_id": "child_adhd_13",
+      "label": "ADHD",
+      "age_group": "child"
+    },
+    {
+      "subject_id": "child_adhd_7",
+      "label": "ADHD",
+      "age_group": "child"
+    },
+    {
+      "subject_id": "child_adhd_47",
+      "label": "ADHD",
+      "age_group": "child"
+    },
+    {
+      "subject_id": "child_adhd_52",
+      "label": "ADHD",
+      "age_group": "child"
+    },
+    {
+      "subject_id": "child_control_37",
+      "label": "Control",
+      "age_group": "child"
+    },
+    {
+      "subject_id": "child_control_51",
+      "label": "Control",
+      "age_group": "child"
+    },
+    {
+      "subject_id": "child_control_42",
+      "label": "Control",
+      "age_group": "child"
+    },
+    {
+      "subject_id": "child_control_13",
+      "label": "Control",
+      "age_group": "child"
+    },
+    {
+      "subject_id": "adult_adhd_5",
+      "label": "ADHD",
+      "age_group": "adult"
+    },
+    {
+      "subject_id": "child_adhd_42",
+      "label": "ADHD",
+      "age_group": "child"
+    },
+    {
+      "subject_id": "child_control_31",
+      "label": "Control",
+      "age_group": "child"
+    },
+    {
+      "subject_id": "child_control_9",
+      "label": "Control",
+      "age_group": "child"
+    },
+    {
+      "subject_id": "child_control_54",
+      "label": "Control",
+      "age_group": "child"
+    },
+    {
+      "subject_id": "child_control_41",
+      "label": "Control",
+      "age_group": "child"
+    },
+    {
+      "subject_id": "child_control_49",
+      "label": "Control",
+      "age_group": "child"
+    },
+    {
+      "subject_id": "child_adhd_9",
+      "label": "ADHD",
+      "age_group": "child"
+    },
+    {
+      "subject_id": "child_control_43",
+      "label": "Control",
+      "age_group": "child"
+    },
+    {
+      "subject_id": "child_control_2",
+      "label": "Control",
+      "age_group": "child"
+    },
+    {
+      "subject_id": "child_control_59",
+      "label": "Control",
+      "age_group": "child"
+    },
+    {
+      "subject_id": "child_control_44",
+      "label": "Control",
+      "age_group": "child"
+    },
+    {
+      "subject_id": "adult_control_3",
+      "label": "Control",
+      "age_group": "adult"
+    },
+    {
+      "subject_id": "child_adhd_17",
+      "label": "ADHD",
+      "age_group": "child"
+    },
+    {
+      "subject_id": "child_control_57",
+      "label": "Control",
+      "age_group": "child"
+    },
+    {
+      "subject_id": "child_adhd_56",
+      "label": "ADHD",
+      "age_group": "child"
+    },
+    {
+      "subject_id": "child_adhd_60",
+      "label": "ADHD",
+      "age_group": "child"
+    },
+    {
+      "subject_id": "child_control_46",
+      "label": "Control",
+      "age_group": "child"
+    },
+    {
+      "subject_id": "child_adhd_16",
+      "label": "ADHD",
+      "age_group": "child"
+    },
+    {
+      "subject_id": "child_control_29",
+      "label": "Control",
+      "age_group": "child"
+    },
+    {
+      "subject_id": "child_adhd_41",
+      "label": "ADHD",
+      "age_group": "child"
+    },
+    {
+      "subject_id": "child_adhd_27",
+      "label": "ADHD",
+      "age_group": "child"
+    },
+    {
+      "subject_id": "child_control_25",
+      "label": "Control",
+      "age_group": "child"
+    },
+    {
+      "subject_id": "child_control_22",
+      "label": "Control",
+      "age_group": "child"
+    },
+    {
+      "subject_id": "child_control_35",
+      "label": "Control",
+      "age_group": "child"
+    },
+    {
+      "subject_id": "child_control_16",
+      "label": "Control",
+      "age_group": "child"
+    },
+    {
+      "subject_id": "child_control_38",
+      "label": "Control",
+      "age_group": "child"
+    },
+    {
+      "subject_id": "child_control_33",
+      "label": "Control",
+      "age_group": "child"
+    },
+    {
+      "subject_id": "child_adhd_19",
+      "label": "ADHD",
+      "age_group": "child"
+    },
+    {
+      "subject_id": "child_adhd_22",
+      "label": "ADHD",
+      "age_group": "child"
+    },
+    {
+      "subject_id": "child_adhd_4",
+      "label": "ADHD",
+      "age_group": "child"
+    },
+    {
+      "subject_id": "child_control_47",
+      "label": "Control",
+      "age_group": "child"
+    },
+    {
+      "subject_id": "child_control_17",
+      "label": "Control",
+      "age_group": "child"
+    },
+    {
+      "subject_id": "child_adhd_37",
+      "label": "ADHD",
+      "age_group": "child"
+    },
+    {
+      "subject_id": "child_adhd_21",
+      "label": "ADHD",
+      "age_group": "child"
+    },
+    {
+      "subject_id": "adult_adhd_6",
+      "label": "ADHD",
+      "age_group": "adult"
+    },
+    {
+      "subject_id": "child_control_48",
+      "label": "Control",
+      "age_group": "child"
+    },
+    {
+      "subject_id": "child_adhd_35",
+      "label": "ADHD",
+      "age_group": "child"
+    },
+    {
+      "subject_id": "child_adhd_28",
+      "label": "ADHD",
+      "age_group": "child"
+    },
+    {
+      "subject_id": "child_control_3",
+      "label": "Control",
+      "age_group": "child"
+    },
+    {
+      "subject_id": "child_adhd_5",
+      "label": "ADHD",
+      "age_group": "child"
+    },
+    {
+      "subject_id": "child_control_56",
+      "label": "Control",
+      "age_group": "child"
+    },
+    {
+      "subject_id": "child_control_6",
+      "label": "Control",
+      "age_group": "child"
+    },
+    {
+      "subject_id": "child_control_50",
+      "label": "Control",
+      "age_group": "child"
+    },
+    {
+      "subject_id": "child_adhd_11",
+      "label": "ADHD",
+      "age_group": "child"
+    },
+    {
+      "subject_id": "child_adhd_43",
+      "label": "ADHD",
+      "age_group": "child"
+    },
+    {
+      "subject_id": "adult_control_7",
+      "label": "Control",
+      "age_group": "adult"
+    },
+    {
+      "subject_id": "child_adhd_46",
+      "label": "ADHD",
+      "age_group": "child"
+    },
+    {
+      "subject_id": "child_adhd_29",
+      "label": "ADHD",
+      "age_group": "child"
+    },
+    {
+      "subject_id": "child_control_30",
+      "label": "Control",
+      "age_group": "child"
+    },
+    {
+      "subject_id": "child_adhd_38",
+      "label": "ADHD",
+      "age_group": "child"
+    },
+    {
+      "subject_id": "child_adhd_49",
+      "label": "ADHD",
+      "age_group": "child"
+    },
+    {
+      "subject_id": "child_control_4",
+      "label": "Control",
+      "age_group": "child"
+    },
+    {
+      "subject_id": "child_control_26",
+      "label": "Control",
+      "age_group": "child"
+    },
+    {
+      "subject_id": "child_adhd_59",
+      "label": "ADHD",
+      "age_group": "child"
+    },
+    {
+      "subject_id": "child_control_8",
+      "label": "Control",
+      "age_group": "child"
+    },
+    {
+      "subject_id": "child_control_18",
+      "label": "Control",
+      "age_group": "child"
+    },
+    {
+      "subject_id": "child_control_14",
+      "label": "Control",
+      "age_group": "child"
+    },
+    {
+      "subject_id": "child_adhd_61",
+      "label": "ADHD",
+      "age_group": "child"
+    },
+    {
+      "subject_id": "child_control_10",
+      "label": "Control",
+      "age_group": "child"
+    },
+    {
+      "subject_id": "child_adhd_26",
+      "label": "ADHD",
+      "age_group": "child"
+    },
+    {
+      "subject_id": "child_adhd_3",
+      "label": "ADHD",
+      "age_group": "child"
+    },
+    {
+      "subject_id": "adult_control_8",
+      "label": "Control",
+      "age_group": "adult"
+    },
+    {
+      "subject_id": "child_control_45",
+      "label": "Control",
+      "age_group": "child"
+    },
+    {
+      "subject_id": "child_adhd_32",
+      "label": "ADHD",
+      "age_group": "child"
+    },
+    {
+      "subject_id": "child_adhd_57",
+      "label": "ADHD",
+      "age_group": "child"
+    },
+    {
+      "subject_id": "child_adhd_53",
+      "label": "ADHD",
+      "age_group": "child"
+    },
+    {
+      "subject_id": "child_adhd_51",
+      "label": "ADHD",
+      "age_group": "child"
+    },
+    {
+      "subject_id": "adult_control_2",
+      "label": "Control",
+      "age_group": "adult"
+    },
+    {
+      "subject_id": "child_adhd_50",
+      "label": "ADHD",
+      "age_group": "child"
+    },
+    {
+      "subject_id": "child_control_12",
+      "label": "Control",
+      "age_group": "child"
+    },
+    {
+      "subject_id": "child_adhd_1",
+      "label": "ADHD",
+      "age_group": "child"
+    },
+    {
+      "subject_id": "child_control_34",
+      "label": "Control",
+      "age_group": "child"
+    },
+    {
+      "subject_id": "child_adhd_33",
+      "label": "ADHD",
+      "age_group": "child"
+    },
+    {
+      "subject_id": "child_adhd_2",
+      "label": "ADHD",
+      "age_group": "child"
+    },
+    {
+      "subject_id": "child_adhd_6",
+      "label": "ADHD",
+      "age_group": "child"
+    },
+    {
+      "subject_id": "child_adhd_25",
+      "label": "ADHD",
+      "age_group": "child"
+    },
+    {
+      "subject_id": "child_control_32",
+      "label": "Control",
+      "age_group": "child"
+    },
+    {
+      "subject_id": "child_control_27",
+      "label": "Control",
+      "age_group": "child"
+    }
+  ],
+  "val_subjects": [
+    {
+      "subject_id": "child_adhd_45",
+      "label": "ADHD",
+      "age_group": "child"
+    },
+    {
+      "subject_id": "child_control_1",
+      "label": "Control",
+      "age_group": "child"
+    },
+    {
+      "subject_id": "adult_adhd_7",
+      "label": "ADHD",
+      "age_group": "adult"
+    },
+    {
+      "subject_id": "child_adhd_54",
+      "label": "ADHD",
+      "age_group": "child"
+    },
+    {
+      "subject_id": "adult_adhd_4",
+      "label": "ADHD",
+      "age_group": "adult"
+    },
+    {
+      "subject_id": "child_control_20",
+      "label": "Control",
+      "age_group": "child"
+    },
+    {
+      "subject_id": "adult_control_4",
+      "label": "Control",
+      "age_group": "adult"
+    },
+    {
+      "subject_id": "child_adhd_58",
+      "label": "ADHD",
+      "age_group": "child"
+    },
+    {
+      "subject_id": "child_control_28",
+      "label": "Control",
+      "age_group": "child"
+    },
+    {
+      "subject_id": "child_adhd_24",
+      "label": "ADHD",
+      "age_group": "child"
+    },
+    {
+      "subject_id": "child_control_5",
+      "label": "Control",
+      "age_group": "child"
+    }
+  ],
+  "test_subjects": [
+    {
+      "subject_id": "child_adhd_40",
+      "label": "ADHD",
+      "age_group": "child"
+    },
+    {
+      "subject_id": "adult_adhd_8",
+      "label": "ADHD",
+      "age_group": "adult"
+    },
+    {
+      "subject_id": "child_adhd_48",
+      "label": "ADHD",
+      "age_group": "child"
+    },
+    {
+      "subject_id": "child_control_52",
+      "label": "Control",
+      "age_group": "child"
+    },
+    {
+      "subject_id": "child_control_60",
+      "label": "Control",
+      "age_group": "child"
+    },
+    {
+      "subject_id": "child_control_15",
+      "label": "Control",
+      "age_group": "child"
+    },
+    {
+      "subject_id": "child_control_11",
+      "label": "Control",
+      "age_group": "child"
+    },
+    {
+      "subject_id": "child_adhd_36",
+      "label": "ADHD",
+      "age_group": "child"
+    },
+    {
+      "subject_id": "child_adhd_31",
+      "label": "ADHD",
+      "age_group": "child"
+    },
+    {
+      "subject_id": "child_control_36",
+      "label": "Control",
+      "age_group": "child"
+    },
+    {
+      "subject_id": "child_adhd_14",
+      "label": "ADHD",
+      "age_group": "child"
+    },
+    {
+      "subject_id": "child_adhd_23",
+      "label": "ADHD",
+      "age_group": "child"
+    },
+    {
+      "subject_id": "child_control_24",
+      "label": "Control",
+      "age_group": "child"
+    },
+    {
+      "subject_id": "adult_adhd_2",
+      "label": "ADHD",
+      "age_group": "adult"
+    },
+    {
+      "subject_id": "child_adhd_15",
+      "label": "ADHD",
+      "age_group": "child"
+    },
+    {
+      "subject_id": "adult_control_1",
+      "label": "Control",
+      "age_group": "adult"
+    },
+    {
+      "subject_id": "child_adhd_34",
+      "label": "ADHD",
+      "age_group": "child"
+    },
+    {
+      "subject_id": "child_control_53",
+      "label": "Control",
+      "age_group": "child"
+    },
+    {
+      "subject_id": "child_control_39",
+      "label": "Control",
+      "age_group": "child"
+    },
+    {
+      "subject_id": "adult_adhd_1",
+      "label": "ADHD",
+      "age_group": "adult"
+    },
+    {
+      "subject_id": "child_control_21",
+      "label": "Control",
+      "age_group": "child"
+    },
+    {
+      "subject_id": "child_adhd_18",
+      "label": "ADHD",
+      "age_group": "child"
+    },
+    {
+      "subject_id": "child_adhd_44",
+      "label": "ADHD",
+      "age_group": "child"
+    },
+    {
+      "subject_id": "child_adhd_8",
+      "label": "ADHD",
+      "age_group": "child"
+    },
+    {
+      "subject_id": "child_control_23",
+      "label": "Control",
+      "age_group": "child"
+    },
+    {
+      "subject_id": "child_control_19",
+      "label": "Control",
+      "age_group": "child"
+    },
+    {
+      "subject_id": "child_control_40",
+      "label": "Control",
+      "age_group": "child"
+    },
+    {
+      "subject_id": "child_control_58",
+      "label": "Control",
+      "age_group": "child"
+    }
+  ],
+  "class_counts": {
+    "Train_Epochs_Control": 4997,
+    "Train_Epochs_ADHD": 3603,
+    "Train_Subjects_Control": 49,
+    "Train_Subjects_ADHD": 49,
+    "Val_Epochs_Control": 735,
+    "Val_Epochs_ADHD": 1377,
+    "Val_Subjects_Control": 5,
+    "Val_Subjects_ADHD": 6,
+    "Test_Epochs_Control": 1039,
+    "Test_Epochs_ADHD": 2232,
+    "Test_Subjects_Control": 14,
+    "Test_Subjects_ADHD": 14
+  }
+}

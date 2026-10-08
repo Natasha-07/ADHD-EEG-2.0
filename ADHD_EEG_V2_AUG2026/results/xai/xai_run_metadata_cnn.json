@@ -1,0 +1,21 @@
+{
+  "model_name": "CNN",
+  "model_file": "Results\\CleanDeepBenchmark\\combined_holdout\\CNN\\cnn_model.keras",
+  "model_input_representation": "training-standardized raw EEG epoch (time x 19 channels)",
+  "dataset": "combined_eeg",
+  "subjects_explained": [
+    "child_adhd_40",
+    "adult_adhd_8",
+    "child_adhd_48",
+    "child_control_52",
+    "child_control_60",
+    "child_control_15"
+  ],
+  "xai_method": "Integrated Gradients",
+  "baseline_background_data": "mean of training epochs after training-only channel standardization",
+  "output_class_explained": "ADHD positive class (sigmoid output = 1)",
+  "split_manifest": "Results\\CleanDeepBenchmark\\combined_holdout\\CNN\\split_manifest.json",
+  "integration_steps": 16,
+  "epochs_per_subject": 4,
+  "sampling_seeds": "42,31415"
+}

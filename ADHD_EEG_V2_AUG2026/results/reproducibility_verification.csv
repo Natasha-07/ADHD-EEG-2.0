@@ -1,0 +1,4 @@
+entry_point,PASS_FAIL,return_code,notes
+generate_final_reviewer_tables.py,PASS,0,"D:\RESEARCH\ADHD_EEG\generate_final_reviewer_tables.py:59: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  table2 = pd.concat([table2, unavailable_neural], ignore_index=True)"
+generate_final_reviewer_figures.py,PASS,0,Saved final figures to D:\RESEARCH\ADHD_EEG\Results\reviewer_revision\figures

@@ -1,0 +1,217 @@
+model,scenario,metric,saved_table_value,recalculated_value,absolute_difference,PASS_FAIL,source_prediction_file
+Always-ADHD,adult_to_child,Accuracy,0.504132,0.5041322314049587,2.314049586393807e-07,PASS,baselines\adult_to_child\always_adhd_subject_predictions.csv
+Always-ADHD,adult_to_child,Balanced_Accuracy,0.5,0.5,0.0,PASS,baselines\adult_to_child\always_adhd_subject_predictions.csv
+Always-ADHD,adult_to_child,Sensitivity,1.0,1.0,0.0,PASS,baselines\adult_to_child\always_adhd_subject_predictions.csv
+Always-ADHD,adult_to_child,Specificity,0.0,0.0,0.0,PASS,baselines\adult_to_child\always_adhd_subject_predictions.csv
+Always-ADHD,adult_to_child,Precision,0.504132,0.5041322314049587,2.314049586393807e-07,PASS,baselines\adult_to_child\always_adhd_subject_predictions.csv
+Always-ADHD,adult_to_child,F1,0.67033,0.6703296703296704,3.296703295907477e-07,PASS,baselines\adult_to_child\always_adhd_subject_predictions.csv
+Always-ADHD,adult_to_child,ROC_AUC,0.5,0.5,0.0,PASS,baselines\adult_to_child\always_adhd_subject_predictions.csv
+Always-ADHD,adult_to_child,PR_AUC,0.504132,0.5041322314049587,2.314049586393807e-07,PASS,baselines\adult_to_child\always_adhd_subject_predictions.csv
+Always-ADHD,adult_to_child,TN,0.0,0.0,0.0,PASS,baselines\adult_to_child\always_adhd_subject_predictions.csv
+Always-ADHD,adult_to_child,FP,60.0,60.0,0.0,PASS,baselines\adult_to_child\always_adhd_subject_predictions.csv
+Always-ADHD,adult_to_child,FN,0.0,0.0,0.0,PASS,baselines\adult_to_child\always_adhd_subject_predictions.csv
+Always-ADHD,adult_to_child,TP,61.0,61.0,0.0,PASS,baselines\adult_to_child\always_adhd_subject_predictions.csv
+Always-Control,adult_to_child,Accuracy,0.495868,0.49586776859504134,2.314049586393807e-07,PASS,baselines\adult_to_child\always_control_subject_predictions.csv
+Always-Control,adult_to_child,Balanced_Accuracy,0.5,0.5,0.0,PASS,baselines\adult_to_child\always_control_subject_predictions.csv
+Always-Control,adult_to_child,Sensitivity,0.0,0.0,0.0,PASS,baselines\adult_to_child\always_control_subject_predictions.csv
+Always-Control,adult_to_child,Specificity,1.0,1.0,0.0,PASS,baselines\adult_to_child\always_control_subject_predictions.csv
+Always-Control,adult_to_child,Precision,0.0,0.0,0.0,PASS,baselines\adult_to_child\always_control_subject_predictions.csv
+Always-Control,adult_to_child,F1,0.0,0.0,0.0,PASS,baselines\adult_to_child\always_control_subject_predictions.csv
+Always-Control,adult_to_child,ROC_AUC,0.5,0.5,0.0,PASS,baselines\adult_to_child\always_control_subject_predictions.csv
+Always-Control,adult_to_child,PR_AUC,0.504132,0.5041322314049587,2.314049586393807e-07,PASS,baselines\adult_to_child\always_control_subject_predictions.csv
+Always-Control,adult_to_child,TN,60.0,60.0,0.0,PASS,baselines\adult_to_child\always_control_subject_predictions.csv
+Always-Control,adult_to_child,FP,0.0,0.0,0.0,PASS,baselines\adult_to_child\always_control_subject_predictions.csv
+Always-Control,adult_to_child,FN,61.0,61.0,0.0,PASS,baselines\adult_to_child\always_control_subject_predictions.csv
+Always-Control,adult_to_child,TP,0.0,0.0,0.0,PASS,baselines\adult_to_child\always_control_subject_predictions.csv
+Linear SVM (Welch band power),adult_to_child,Accuracy,0.578512,0.5785123966942148,3.9669421481036693e-07,PASS,baselines\adult_to_child\linear_svm_welch_band_power_subject_predictions.csv
+Linear SVM (Welch band power),adult_to_child,Balanced_Accuracy,0.579781,0.5797814207650273,4.2076502726473564e-07,PASS,baselines\adult_to_child\linear_svm_welch_band_power_subject_predictions.csv
+Linear SVM (Welch band power),adult_to_child,Sensitivity,0.42623,0.4262295081967213,4.918032787126769e-07,PASS,baselines\adult_to_child\linear_svm_welch_band_power_subject_predictions.csv
+Linear SVM (Welch band power),adult_to_child,Specificity,0.733333,0.7333333333333333,3.333333332689037e-07,PASS,baselines\adult_to_child\linear_svm_welch_band_power_subject_predictions.csv
+Linear SVM (Welch band power),adult_to_child,Precision,0.619048,0.6190476190476191,3.8095238097390904e-07,PASS,baselines\adult_to_child\linear_svm_welch_band_power_subject_predictions.csv
+Linear SVM (Welch band power),adult_to_child,F1,0.504854,0.5048543689320388,3.689320388078343e-07,PASS,baselines\adult_to_child\linear_svm_welch_band_power_subject_predictions.csv
+Linear SVM (Welch band power),adult_to_child,ROC_AUC,0.687158,0.6871584699453552,4.6994535518596336e-07,PASS,baselines\adult_to_child\linear_svm_welch_band_power_subject_predictions.csv
+Linear SVM (Welch band power),adult_to_child,PR_AUC,0.673964,0.6739641751300669,1.7513006689284794e-07,PASS,baselines\adult_to_child\linear_svm_welch_band_power_subject_predictions.csv
+Linear SVM (Welch band power),adult_to_child,TN,44.0,44.0,0.0,PASS,baselines\adult_to_child\linear_svm_welch_band_power_subject_predictions.csv
+Linear SVM (Welch band power),adult_to_child,FP,16.0,16.0,0.0,PASS,baselines\adult_to_child\linear_svm_welch_band_power_subject_predictions.csv
+Linear SVM (Welch band power),adult_to_child,FN,35.0,35.0,0.0,PASS,baselines\adult_to_child\linear_svm_welch_band_power_subject_predictions.csv
+Linear SVM (Welch band power),adult_to_child,TP,26.0,26.0,0.0,PASS,baselines\adult_to_child\linear_svm_welch_band_power_subject_predictions.csv
+Logistic Regression (Welch band power),adult_to_child,Accuracy,0.603306,0.6033057851239669,2.1487603307779324e-07,PASS,baselines\adult_to_child\logistic_regression_welch_band_power_subject_predictions.csv
+Logistic Regression (Welch band power),adult_to_child,Balanced_Accuracy,0.604508,0.6045081967213115,1.967213114628663e-07,PASS,baselines\adult_to_child\logistic_regression_welch_band_power_subject_predictions.csv
+Logistic Regression (Welch band power),adult_to_child,Sensitivity,0.459016,0.45901639344262296,3.9344262298124377e-07,PASS,baselines\adult_to_child\logistic_regression_welch_band_power_subject_predictions.csv
+Logistic Regression (Welch band power),adult_to_child,Specificity,0.75,0.75,0.0,PASS,baselines\adult_to_child\logistic_regression_welch_band_power_subject_predictions.csv
+Logistic Regression (Welch band power),adult_to_child,Precision,0.651163,0.6511627906976745,2.0930232558225015e-07,PASS,baselines\adult_to_child\logistic_regression_welch_band_power_subject_predictions.csv
+Logistic Regression (Welch band power),adult_to_child,F1,0.538462,0.5384615384615384,4.6153846156027356e-07,PASS,baselines\adult_to_child\logistic_regression_welch_band_power_subject_predictions.csv
+Logistic Regression (Welch band power),adult_to_child,ROC_AUC,0.692623,0.6926229508196722,4.9180327810205426e-08,PASS,baselines\adult_to_child\logistic_regression_welch_band_power_subject_predictions.csv
+Logistic Regression (Welch band power),adult_to_child,PR_AUC,0.666123,0.6661225458244865,4.5417551353121866e-07,PASS,baselines\adult_to_child\logistic_regression_welch_band_power_subject_predictions.csv
+Logistic Regression (Welch band power),adult_to_child,TN,45.0,45.0,0.0,PASS,baselines\adult_to_child\logistic_regression_welch_band_power_subject_predictions.csv
+Logistic Regression (Welch band power),adult_to_child,FP,15.0,15.0,0.0,PASS,baselines\adult_to_child\logistic_regression_welch_band_power_subject_predictions.csv
+Logistic Regression (Welch band power),adult_to_child,FN,33.0,33.0,0.0,PASS,baselines\adult_to_child\logistic_regression_welch_band_power_subject_predictions.csv
+Logistic Regression (Welch band power),adult_to_child,TP,28.0,28.0,0.0,PASS,baselines\adult_to_child\logistic_regression_welch_band_power_subject_predictions.csv
+Majority-class Dummy,adult_to_child,Accuracy,0.495868,0.49586776859504134,2.314049586393807e-07,PASS,baselines\adult_to_child\majority_class_dummy_subject_predictions.csv
+Majority-class Dummy,adult_to_child,Balanced_Accuracy,0.5,0.5,0.0,PASS,baselines\adult_to_child\majority_class_dummy_subject_predictions.csv
+Majority-class Dummy,adult_to_child,Sensitivity,0.0,0.0,0.0,PASS,baselines\adult_to_child\majority_class_dummy_subject_predictions.csv
+Majority-class Dummy,adult_to_child,Specificity,1.0,1.0,0.0,PASS,baselines\adult_to_child\majority_class_dummy_subject_predictions.csv
+Majority-class Dummy,adult_to_child,Precision,0.0,0.0,0.0,PASS,baselines\adult_to_child\majority_class_dummy_subject_predictions.csv
+Majority-class Dummy,adult_to_child,F1,0.0,0.0,0.0,PASS,baselines\adult_to_child\majority_class_dummy_subject_predictions.csv
+Majority-class Dummy,adult_to_child,ROC_AUC,0.5,0.5,0.0,PASS,baselines\adult_to_child\majority_class_dummy_subject_predictions.csv
+Majority-class Dummy,adult_to_child,PR_AUC,0.504132,0.5041322314049587,2.314049586393807e-07,PASS,baselines\adult_to_child\majority_class_dummy_subject_predictions.csv
+Majority-class Dummy,adult_to_child,TN,60.0,60.0,0.0,PASS,baselines\adult_to_child\majority_class_dummy_subject_predictions.csv
+Majority-class Dummy,adult_to_child,FP,0.0,0.0,0.0,PASS,baselines\adult_to_child\majority_class_dummy_subject_predictions.csv
+Majority-class Dummy,adult_to_child,FN,61.0,61.0,0.0,PASS,baselines\adult_to_child\majority_class_dummy_subject_predictions.csv
+Majority-class Dummy,adult_to_child,TP,0.0,0.0,0.0,PASS,baselines\adult_to_child\majority_class_dummy_subject_predictions.csv
+Stratified Dummy,adult_to_child,Accuracy,0.578512,0.5785123966942148,3.9669421481036693e-07,PASS,baselines\adult_to_child\stratified_dummy_subject_predictions.csv
+Stratified Dummy,adult_to_child,Balanced_Accuracy,0.578689,0.5786885245901638,4.7540983616478627e-07,PASS,baselines\adult_to_child\stratified_dummy_subject_predictions.csv
+Stratified Dummy,adult_to_child,Sensitivity,0.557377,0.5573770491803278,4.9180327810205426e-08,PASS,baselines\adult_to_child\stratified_dummy_subject_predictions.csv
+Stratified Dummy,adult_to_child,Specificity,0.6,0.6,0.0,PASS,baselines\adult_to_child\stratified_dummy_subject_predictions.csv
+Stratified Dummy,adult_to_child,Precision,0.586207,0.5862068965517241,1.0344827594543915e-07,PASS,baselines\adult_to_child\stratified_dummy_subject_predictions.csv
+Stratified Dummy,adult_to_child,F1,0.571429,0.5714285714285715,4.285714284568698e-07,PASS,baselines\adult_to_child\stratified_dummy_subject_predictions.csv
+Stratified Dummy,adult_to_child,ROC_AUC,0.561885,0.5618852459016394,2.4590163938409404e-07,PASS,baselines\adult_to_child\stratified_dummy_subject_predictions.csv
+Stratified Dummy,adult_to_child,PR_AUC,0.54655,0.5465497932436547,2.0675634526678976e-07,PASS,baselines\adult_to_child\stratified_dummy_subject_predictions.csv
+Stratified Dummy,adult_to_child,TN,36.0,36.0,0.0,PASS,baselines\adult_to_child\stratified_dummy_subject_predictions.csv
+Stratified Dummy,adult_to_child,FP,24.0,24.0,0.0,PASS,baselines\adult_to_child\stratified_dummy_subject_predictions.csv
+Stratified Dummy,adult_to_child,FN,27.0,27.0,0.0,PASS,baselines\adult_to_child\stratified_dummy_subject_predictions.csv
+Stratified Dummy,adult_to_child,TP,34.0,34.0,0.0,PASS,baselines\adult_to_child\stratified_dummy_subject_predictions.csv
+Always-ADHD,child_to_adult,Accuracy,0.5,0.5,0.0,PASS,baselines\child_to_adult\always_adhd_subject_predictions.csv
+Always-ADHD,child_to_adult,Balanced_Accuracy,0.5,0.5,0.0,PASS,baselines\child_to_adult\always_adhd_subject_predictions.csv
+Always-ADHD,child_to_adult,Sensitivity,1.0,1.0,0.0,PASS,baselines\child_to_adult\always_adhd_subject_predictions.csv
+Always-ADHD,child_to_adult,Specificity,0.0,0.0,0.0,PASS,baselines\child_to_adult\always_adhd_subject_predictions.csv
+Always-ADHD,child_to_adult,Precision,0.5,0.5,0.0,PASS,baselines\child_to_adult\always_adhd_subject_predictions.csv
+Always-ADHD,child_to_adult,F1,0.666667,0.6666666666666666,3.33333333379926e-07,PASS,baselines\child_to_adult\always_adhd_subject_predictions.csv
+Always-ADHD,child_to_adult,ROC_AUC,0.5,0.5,0.0,PASS,baselines\child_to_adult\always_adhd_subject_predictions.csv
+Always-ADHD,child_to_adult,PR_AUC,0.5,0.5,0.0,PASS,baselines\child_to_adult\always_adhd_subject_predictions.csv
+Always-ADHD,child_to_adult,TN,0.0,0.0,0.0,PASS,baselines\child_to_adult\always_adhd_subject_predictions.csv
+Always-ADHD,child_to_adult,FP,8.0,8.0,0.0,PASS,baselines\child_to_adult\always_adhd_subject_predictions.csv
+Always-ADHD,child_to_adult,FN,0.0,0.0,0.0,PASS,baselines\child_to_adult\always_adhd_subject_predictions.csv
+Always-ADHD,child_to_adult,TP,8.0,8.0,0.0,PASS,baselines\child_to_adult\always_adhd_subject_predictions.csv
+Always-Control,child_to_adult,Accuracy,0.5,0.5,0.0,PASS,baselines\child_to_adult\always_control_subject_predictions.csv
+Always-Control,child_to_adult,Balanced_Accuracy,0.5,0.5,0.0,PASS,baselines\child_to_adult\always_control_subject_predictions.csv
+Always-Control,child_to_adult,Sensitivity,0.0,0.0,0.0,PASS,baselines\child_to_adult\always_control_subject_predictions.csv
+Always-Control,child_to_adult,Specificity,1.0,1.0,0.0,PASS,baselines\child_to_adult\always_control_subject_predictions.csv
+Always-Control,child_to_adult,Precision,0.0,0.0,0.0,PASS,baselines\child_to_adult\always_control_subject_predictions.csv
+Always-Control,child_to_adult,F1,0.0,0.0,0.0,PASS,baselines\child_to_adult\always_control_subject_predictions.csv
+Always-Control,child_to_adult,ROC_AUC,0.5,0.5,0.0,PASS,baselines\child_to_adult\always_control_subject_predictions.csv
+Always-Control,child_to_adult,PR_AUC,0.5,0.5,0.0,PASS,baselines\child_to_adult\always_control_subject_predictions.csv
+Always-Control,child_to_adult,TN,8.0,8.0,0.0,PASS,baselines\child_to_adult\always_control_subject_predictions.csv
+Always-Control,child_to_adult,FP,0.0,0.0,0.0,PASS,baselines\child_to_adult\always_control_subject_predictions.csv
+Always-Control,child_to_adult,FN,8.0,8.0,0.0,PASS,baselines\child_to_adult\always_control_subject_predictions.csv
+Always-Control,child_to_adult,TP,0.0,0.0,0.0,PASS,baselines\child_to_adult\always_control_subject_predictions.csv
+Linear SVM (Welch band power),child_to_adult,Accuracy,0.4375,0.4375,0.0,PASS,baselines\child_to_adult\linear_svm_welch_band_power_subject_predictions.csv
+Linear SVM (Welch band power),child_to_adult,Balanced_Accuracy,0.4375,0.4375,0.0,PASS,baselines\child_to_adult\linear_svm_welch_band_power_subject_predictions.csv
+Linear SVM (Welch band power),child_to_adult,Sensitivity,0.0,0.0,0.0,PASS,baselines\child_to_adult\linear_svm_welch_band_power_subject_predictions.csv
+Linear SVM (Welch band power),child_to_adult,Specificity,0.875,0.875,0.0,PASS,baselines\child_to_adult\linear_svm_welch_band_power_subject_predictions.csv
+Linear SVM (Welch band power),child_to_adult,Precision,0.0,0.0,0.0,PASS,baselines\child_to_adult\linear_svm_welch_band_power_subject_predictions.csv
+Linear SVM (Welch band power),child_to_adult,F1,0.0,0.0,0.0,PASS,baselines\child_to_adult\linear_svm_welch_band_power_subject_predictions.csv
+Linear SVM (Welch band power),child_to_adult,ROC_AUC,0.53125,0.53125,0.0,PASS,baselines\child_to_adult\linear_svm_welch_band_power_subject_predictions.csv
+Linear SVM (Welch band power),child_to_adult,PR_AUC,0.563141,0.5631410256410256,2.5641025636069514e-08,PASS,baselines\child_to_adult\linear_svm_welch_band_power_subject_predictions.csv
+Linear SVM (Welch band power),child_to_adult,TN,7.0,7.0,0.0,PASS,baselines\child_to_adult\linear_svm_welch_band_power_subject_predictions.csv
+Linear SVM (Welch band power),child_to_adult,FP,1.0,1.0,0.0,PASS,baselines\child_to_adult\linear_svm_welch_band_power_subject_predictions.csv
+Linear SVM (Welch band power),child_to_adult,FN,8.0,8.0,0.0,PASS,baselines\child_to_adult\linear_svm_welch_band_power_subject_predictions.csv
+Linear SVM (Welch band power),child_to_adult,TP,0.0,0.0,0.0,PASS,baselines\child_to_adult\linear_svm_welch_band_power_subject_predictions.csv
+Logistic Regression (Welch band power),child_to_adult,Accuracy,0.5,0.5,0.0,PASS,baselines\child_to_adult\logistic_regression_welch_band_power_subject_predictions.csv
+Logistic Regression (Welch band power),child_to_adult,Balanced_Accuracy,0.5,0.5,0.0,PASS,baselines\child_to_adult\logistic_regression_welch_band_power_subject_predictions.csv
+Logistic Regression (Welch band power),child_to_adult,Sensitivity,0.125,0.125,0.0,PASS,baselines\child_to_adult\logistic_regression_welch_band_power_subject_predictions.csv
+Logistic Regression (Welch band power),child_to_adult,Specificity,0.875,0.875,0.0,PASS,baselines\child_to_adult\logistic_regression_welch_band_power_subject_predictions.csv
+Logistic Regression (Welch band power),child_to_adult,Precision,0.5,0.5,0.0,PASS,baselines\child_to_adult\logistic_regression_welch_band_power_subject_predictions.csv
+Logistic Regression (Welch band power),child_to_adult,F1,0.2,0.2,0.0,PASS,baselines\child_to_adult\logistic_regression_welch_band_power_subject_predictions.csv
+Logistic Regression (Welch band power),child_to_adult,ROC_AUC,0.515625,0.515625,0.0,PASS,baselines\child_to_adult\logistic_regression_welch_band_power_subject_predictions.csv
+Logistic Regression (Welch band power),child_to_adult,PR_AUC,0.56047,0.5604700854700855,8.547008545356505e-08,PASS,baselines\child_to_adult\logistic_regression_welch_band_power_subject_predictions.csv
+Logistic Regression (Welch band power),child_to_adult,TN,7.0,7.0,0.0,PASS,baselines\child_to_adult\logistic_regression_welch_band_power_subject_predictions.csv
+Logistic Regression (Welch band power),child_to_adult,FP,1.0,1.0,0.0,PASS,baselines\child_to_adult\logistic_regression_welch_band_power_subject_predictions.csv
+Logistic Regression (Welch band power),child_to_adult,FN,7.0,7.0,0.0,PASS,baselines\child_to_adult\logistic_regression_welch_band_power_subject_predictions.csv
+Logistic Regression (Welch band power),child_to_adult,TP,1.0,1.0,0.0,PASS,baselines\child_to_adult\logistic_regression_welch_band_power_subject_predictions.csv
+Majority-class Dummy,child_to_adult,Accuracy,0.5,0.5,0.0,PASS,baselines\child_to_adult\majority_class_dummy_subject_predictions.csv
+Majority-class Dummy,child_to_adult,Balanced_Accuracy,0.5,0.5,0.0,PASS,baselines\child_to_adult\majority_class_dummy_subject_predictions.csv
+Majority-class Dummy,child_to_adult,Sensitivity,1.0,1.0,0.0,PASS,baselines\child_to_adult\majority_class_dummy_subject_predictions.csv
+Majority-class Dummy,child_to_adult,Specificity,0.0,0.0,0.0,PASS,baselines\child_to_adult\majority_class_dummy_subject_predictions.csv
+Majority-class Dummy,child_to_adult,Precision,0.5,0.5,0.0,PASS,baselines\child_to_adult\majority_class_dummy_subject_predictions.csv
+Majority-class Dummy,child_to_adult,F1,0.666667,0.6666666666666666,3.33333333379926e-07,PASS,baselines\child_to_adult\majority_class_dummy_subject_predictions.csv
+Majority-class Dummy,child_to_adult,ROC_AUC,0.5,0.5,0.0,PASS,baselines\child_to_adult\majority_class_dummy_subject_predictions.csv
+Majority-class Dummy,child_to_adult,PR_AUC,0.5,0.5,0.0,PASS,baselines\child_to_adult\majority_class_dummy_subject_predictions.csv
+Majority-class Dummy,child_to_adult,TN,0.0,0.0,0.0,PASS,baselines\child_to_adult\majority_class_dummy_subject_predictions.csv
+Majority-class Dummy,child_to_adult,FP,8.0,8.0,0.0,PASS,baselines\child_to_adult\majority_class_dummy_subject_predictions.csv
+Majority-class Dummy,child_to_adult,FN,0.0,0.0,0.0,PASS,baselines\child_to_adult\majority_class_dummy_subject_predictions.csv
+Majority-class Dummy,child_to_adult,TP,8.0,8.0,0.0,PASS,baselines\child_to_adult\majority_class_dummy_subject_predictions.csv
+Stratified Dummy,child_to_adult,Accuracy,0.5,0.5,0.0,PASS,baselines\child_to_adult\stratified_dummy_subject_predictions.csv
+Stratified Dummy,child_to_adult,Balanced_Accuracy,0.5,0.5,0.0,PASS,baselines\child_to_adult\stratified_dummy_subject_predictions.csv
+Stratified Dummy,child_to_adult,Sensitivity,1.0,1.0,0.0,PASS,baselines\child_to_adult\stratified_dummy_subject_predictions.csv
+Stratified Dummy,child_to_adult,Specificity,0.0,0.0,0.0,PASS,baselines\child_to_adult\stratified_dummy_subject_predictions.csv
+Stratified Dummy,child_to_adult,Precision,0.5,0.5,0.0,PASS,baselines\child_to_adult\stratified_dummy_subject_predictions.csv
+Stratified Dummy,child_to_adult,F1,0.666667,0.6666666666666666,3.33333333379926e-07,PASS,baselines\child_to_adult\stratified_dummy_subject_predictions.csv
+Stratified Dummy,child_to_adult,ROC_AUC,0.09375,0.09375,0.0,PASS,baselines\child_to_adult\stratified_dummy_subject_predictions.csv
+Stratified Dummy,child_to_adult,PR_AUC,0.364906,0.36490592740592737,7.259407264204043e-08,PASS,baselines\child_to_adult\stratified_dummy_subject_predictions.csv
+Stratified Dummy,child_to_adult,TN,0.0,0.0,0.0,PASS,baselines\child_to_adult\stratified_dummy_subject_predictions.csv
+Stratified Dummy,child_to_adult,FP,8.0,8.0,0.0,PASS,baselines\child_to_adult\stratified_dummy_subject_predictions.csv
+Stratified Dummy,child_to_adult,FN,0.0,0.0,0.0,PASS,baselines\child_to_adult\stratified_dummy_subject_predictions.csv
+Stratified Dummy,child_to_adult,TP,8.0,8.0,0.0,PASS,baselines\child_to_adult\stratified_dummy_subject_predictions.csv
+Always-ADHD,combined_holdout,Accuracy,0.5,0.5,0.0,PASS,baselines\combined_holdout\always_adhd_subject_predictions.csv
+Always-ADHD,combined_holdout,Balanced_Accuracy,0.5,0.5,0.0,PASS,baselines\combined_holdout\always_adhd_subject_predictions.csv
+Always-ADHD,combined_holdout,Sensitivity,1.0,1.0,0.0,PASS,baselines\combined_holdout\always_adhd_subject_predictions.csv
+Always-ADHD,combined_holdout,Specificity,0.0,0.0,0.0,PASS,baselines\combined_holdout\always_adhd_subject_predictions.csv
+Always-ADHD,combined_holdout,Precision,0.5,0.5,0.0,PASS,baselines\combined_holdout\always_adhd_subject_predictions.csv
+Always-ADHD,combined_holdout,F1,0.666667,0.6666666666666666,3.33333333379926e-07,PASS,baselines\combined_holdout\always_adhd_subject_predictions.csv
+Always-ADHD,combined_holdout,ROC_AUC,0.5,0.5,0.0,PASS,baselines\combined_holdout\always_adhd_subject_predictions.csv
+Always-ADHD,combined_holdout,PR_AUC,0.5,0.5,0.0,PASS,baselines\combined_holdout\always_adhd_subject_predictions.csv
+Always-ADHD,combined_holdout,TN,0.0,0.0,0.0,PASS,baselines\combined_holdout\always_adhd_subject_predictions.csv
+Always-ADHD,combined_holdout,FP,14.0,14.0,0.0,PASS,baselines\combined_holdout\always_adhd_subject_predictions.csv
+Always-ADHD,combined_holdout,FN,0.0,0.0,0.0,PASS,baselines\combined_holdout\always_adhd_subject_predictions.csv
+Always-ADHD,combined_holdout,TP,14.0,14.0,0.0,PASS,baselines\combined_holdout\always_adhd_subject_predictions.csv
+Always-Control,combined_holdout,Accuracy,0.5,0.5,0.0,PASS,baselines\combined_holdout\always_control_subject_predictions.csv
+Always-Control,combined_holdout,Balanced_Accuracy,0.5,0.5,0.0,PASS,baselines\combined_holdout\always_control_subject_predictions.csv
+Always-Control,combined_holdout,Sensitivity,0.0,0.0,0.0,PASS,baselines\combined_holdout\always_control_subject_predictions.csv
+Always-Control,combined_holdout,Specificity,1.0,1.0,0.0,PASS,baselines\combined_holdout\always_control_subject_predictions.csv
+Always-Control,combined_holdout,Precision,0.0,0.0,0.0,PASS,baselines\combined_holdout\always_control_subject_predictions.csv
+Always-Control,combined_holdout,F1,0.0,0.0,0.0,PASS,baselines\combined_holdout\always_control_subject_predictions.csv
+Always-Control,combined_holdout,ROC_AUC,0.5,0.5,0.0,PASS,baselines\combined_holdout\always_control_subject_predictions.csv
+Always-Control,combined_holdout,PR_AUC,0.5,0.5,0.0,PASS,baselines\combined_holdout\always_control_subject_predictions.csv
+Always-Control,combined_holdout,TN,14.0,14.0,0.0,PASS,baselines\combined_holdout\always_control_subject_predictions.csv
+Always-Control,combined_holdout,FP,0.0,0.0,0.0,PASS,baselines\combined_holdout\always_control_subject_predictions.csv
+Always-Control,combined_holdout,FN,14.0,14.0,0.0,PASS,baselines\combined_holdout\always_control_subject_predictions.csv
+Always-Control,combined_holdout,TP,0.0,0.0,0.0,PASS,baselines\combined_holdout\always_control_subject_predictions.csv
+Linear SVM (Welch band power),combined_holdout,Accuracy,0.607143,0.6071428571428571,1.4285714289297147e-07,PASS,baselines\combined_holdout\linear_svm_welch_band_power_subject_predictions.csv
+Linear SVM (Welch band power),combined_holdout,Balanced_Accuracy,0.607143,0.6071428571428571,1.4285714289297147e-07,PASS,baselines\combined_holdout\linear_svm_welch_band_power_subject_predictions.csv
+Linear SVM (Welch band power),combined_holdout,Sensitivity,0.857143,0.8571428571428571,1.4285714289297147e-07,PASS,baselines\combined_holdout\linear_svm_welch_band_power_subject_predictions.csv
+Linear SVM (Welch band power),combined_holdout,Specificity,0.357143,0.35714285714285715,1.4285714283746032e-07,PASS,baselines\combined_holdout\linear_svm_welch_band_power_subject_predictions.csv
+Linear SVM (Welch band power),combined_holdout,Precision,0.571429,0.5714285714285714,4.285714285678921e-07,PASS,baselines\combined_holdout\linear_svm_welch_band_power_subject_predictions.csv
+Linear SVM (Welch band power),combined_holdout,F1,0.685714,0.6857142857142857,2.8571428567492063e-07,PASS,baselines\combined_holdout\linear_svm_welch_band_power_subject_predictions.csv
+Linear SVM (Welch band power),combined_holdout,ROC_AUC,0.632653,0.6326530612244898,6.122448981127349e-08,PASS,baselines\combined_holdout\linear_svm_welch_band_power_subject_predictions.csv
+Linear SVM (Welch band power),combined_holdout,PR_AUC,0.595003,0.5950029844713804,1.5528619501381513e-08,PASS,baselines\combined_holdout\linear_svm_welch_band_power_subject_predictions.csv
+Linear SVM (Welch band power),combined_holdout,TN,5.0,5.0,0.0,PASS,baselines\combined_holdout\linear_svm_welch_band_power_subject_predictions.csv
+Linear SVM (Welch band power),combined_holdout,FP,9.0,9.0,0.0,PASS,baselines\combined_holdout\linear_svm_welch_band_power_subject_predictions.csv
+Linear SVM (Welch band power),combined_holdout,FN,2.0,2.0,0.0,PASS,baselines\combined_holdout\linear_svm_welch_band_power_subject_predictions.csv
+Linear SVM (Welch band power),combined_holdout,TP,12.0,12.0,0.0,PASS,baselines\combined_holdout\linear_svm_welch_band_power_subject_predictions.csv
+Logistic Regression (Welch band power),combined_holdout,Accuracy,0.607143,0.6071428571428571,1.4285714289297147e-07,PASS,baselines\combined_holdout\logistic_regression_welch_band_power_subject_predictions.csv
+Logistic Regression (Welch band power),combined_holdout,Balanced_Accuracy,0.607143,0.6071428571428571,1.4285714289297147e-07,PASS,baselines\combined_holdout\logistic_regression_welch_band_power_subject_predictions.csv
+Logistic Regression (Welch band power),combined_holdout,Sensitivity,0.857143,0.8571428571428571,1.4285714289297147e-07,PASS,baselines\combined_holdout\logistic_regression_welch_band_power_subject_predictions.csv
+Logistic Regression (Welch band power),combined_holdout,Specificity,0.357143,0.35714285714285715,1.4285714283746032e-07,PASS,baselines\combined_holdout\logistic_regression_welch_band_power_subject_predictions.csv
+Logistic Regression (Welch band power),combined_holdout,Precision,0.571429,0.5714285714285714,4.285714285678921e-07,PASS,baselines\combined_holdout\logistic_regression_welch_band_power_subject_predictions.csv
+Logistic Regression (Welch band power),combined_holdout,F1,0.685714,0.6857142857142857,2.8571428567492063e-07,PASS,baselines\combined_holdout\logistic_regression_welch_band_power_subject_predictions.csv
+Logistic Regression (Welch band power),combined_holdout,ROC_AUC,0.647959,0.6479591836734694,1.8367346943382046e-07,PASS,baselines\combined_holdout\logistic_regression_welch_band_power_subject_predictions.csv
+Logistic Regression (Welch band power),combined_holdout,PR_AUC,0.618862,0.6188619153955289,8.46044710955951e-08,PASS,baselines\combined_holdout\logistic_regression_welch_band_power_subject_predictions.csv
+Logistic Regression (Welch band power),combined_holdout,TN,5.0,5.0,0.0,PASS,baselines\combined_holdout\logistic_regression_welch_band_power_subject_predictions.csv
+Logistic Regression (Welch band power),combined_holdout,FP,9.0,9.0,0.0,PASS,baselines\combined_holdout\logistic_regression_welch_band_power_subject_predictions.csv
+Logistic Regression (Welch band power),combined_holdout,FN,2.0,2.0,0.0,PASS,baselines\combined_holdout\logistic_regression_welch_band_power_subject_predictions.csv
+Logistic Regression (Welch band power),combined_holdout,TP,12.0,12.0,0.0,PASS,baselines\combined_holdout\logistic_regression_welch_band_power_subject_predictions.csv
+Majority-class Dummy,combined_holdout,Accuracy,0.5,0.5,0.0,PASS,baselines\combined_holdout\majority_class_dummy_subject_predictions.csv
+Majority-class Dummy,combined_holdout,Balanced_Accuracy,0.5,0.5,0.0,PASS,baselines\combined_holdout\majority_class_dummy_subject_predictions.csv
+Majority-class Dummy,combined_holdout,Sensitivity,0.0,0.0,0.0,PASS,baselines\combined_holdout\majority_class_dummy_subject_predictions.csv
+Majority-class Dummy,combined_holdout,Specificity,1.0,1.0,0.0,PASS,baselines\combined_holdout\majority_class_dummy_subject_predictions.csv
+Majority-class Dummy,combined_holdout,Precision,0.0,0.0,0.0,PASS,baselines\combined_holdout\majority_class_dummy_subject_predictions.csv
+Majority-class Dummy,combined_holdout,F1,0.0,0.0,0.0,PASS,baselines\combined_holdout\majority_class_dummy_subject_predictions.csv
+Majority-class Dummy,combined_holdout,ROC_AUC,0.5,0.5,0.0,PASS,baselines\combined_holdout\majority_class_dummy_subject_predictions.csv
+Majority-class Dummy,combined_holdout,PR_AUC,0.5,0.5,0.0,PASS,baselines\combined_holdout\majority_class_dummy_subject_predictions.csv
+Majority-class Dummy,combined_holdout,TN,14.0,14.0,0.0,PASS,baselines\combined_holdout\majority_class_dummy_subject_predictions.csv
+Majority-class Dummy,combined_holdout,FP,0.0,0.0,0.0,PASS,baselines\combined_holdout\majority_class_dummy_subject_predictions.csv
+Majority-class Dummy,combined_holdout,FN,14.0,14.0,0.0,PASS,baselines\combined_holdout\majority_class_dummy_subject_predictions.csv
+Majority-class Dummy,combined_holdout,TP,0.0,0.0,0.0,PASS,baselines\combined_holdout\majority_class_dummy_subject_predictions.csv
+Stratified Dummy,combined_holdout,Accuracy,0.464286,0.4642857142857143,2.8571428567492063e-07,PASS,baselines\combined_holdout\stratified_dummy_subject_predictions.csv
+Stratified Dummy,combined_holdout,Balanced_Accuracy,0.464286,0.4642857142857143,2.8571428567492063e-07,PASS,baselines\combined_holdout\stratified_dummy_subject_predictions.csv
+Stratified Dummy,combined_holdout,Sensitivity,0.142857,0.14285714285714285,1.4285714283746032e-07,PASS,baselines\combined_holdout\stratified_dummy_subject_predictions.csv
+Stratified Dummy,combined_holdout,Specificity,0.785714,0.7857142857142857,2.8571428567492063e-07,PASS,baselines\combined_holdout\stratified_dummy_subject_predictions.csv
+Stratified Dummy,combined_holdout,Precision,0.4,0.4,0.0,PASS,baselines\combined_holdout\stratified_dummy_subject_predictions.csv
+Stratified Dummy,combined_holdout,F1,0.210526,0.21052631578947364,3.1578947365384913e-07,PASS,baselines\combined_holdout\stratified_dummy_subject_predictions.csv
+Stratified Dummy,combined_holdout,ROC_AUC,0.571429,0.5714285714285714,4.285714285678921e-07,PASS,baselines\combined_holdout\stratified_dummy_subject_predictions.csv
+Stratified Dummy,combined_holdout,PR_AUC,0.555168,0.5551682529874894,2.529874894019457e-07,PASS,baselines\combined_holdout\stratified_dummy_subject_predictions.csv
+Stratified Dummy,combined_holdout,TN,11.0,11.0,0.0,PASS,baselines\combined_holdout\stratified_dummy_subject_predictions.csv
+Stratified Dummy,combined_holdout,FP,3.0,3.0,0.0,PASS,baselines\combined_holdout\stratified_dummy_subject_predictions.csv
+Stratified Dummy,combined_holdout,FN,12.0,12.0,0.0,PASS,baselines\combined_holdout\stratified_dummy_subject_predictions.csv
+Stratified Dummy,combined_holdout,TP,2.0,2.0,0.0,PASS,baselines\combined_holdout\stratified_dummy_subject_predictions.csv

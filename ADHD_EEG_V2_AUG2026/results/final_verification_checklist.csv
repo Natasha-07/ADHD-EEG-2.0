@@ -1,0 +1,18 @@
+REQUIRED FILE/OUTPUT,EXISTS?,VALID?,NOTES
+dataset audit,True,True,Required artifacts present.
+split audit,True,True,Required artifacts present.
+baselines,True,True,Required artifacts present.
+subject-level outputs,True,True,18 baseline subject-prediction files found; no new neural files found.
+threshold/LSTM analysis,True,True,Required artifacts present.
+grouped CV,True,False,Result schemas exist but contain zero fold results.
+adult small sample,True,True,Required artifacts present.
+harmonization,True,True,Required artifacts present.
+architecture audit,True,True,Required artifacts present.
+XAI,True,True,Required artifacts present.
+electrode normalization,True,True,Required artifacts present.
+sensor topoplots,True,True,Required artifacts present.
+statistics,True,True,Required artifacts present.
+tables,True,True,Required artifacts present.
+figures,True,True,Required artifacts present.
+compliance,True,True,Required artifacts present.
+final package,True,True,Required artifacts present.

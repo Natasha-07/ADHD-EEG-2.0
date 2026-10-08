@@ -1,0 +1,9 @@
+model,metric,model_value,best_trivial_model,best_trivial_value,difference,better_than_best_trivial
+Logistic Regression (Welch band power),Accuracy,0.607143,Always-ADHD,0.5,0.10714299999999999,True
+Logistic Regression (Welch band power),Balanced_Accuracy,0.607143,Always-ADHD,0.5,0.10714299999999999,True
+Logistic Regression (Welch band power),F1,0.685714,Always-ADHD,0.666667,0.019047000000000036,True
+Logistic Regression (Welch band power),ROC_AUC,0.647959,Stratified Dummy,0.571429,0.07652999999999999,True
+Linear SVM (Welch band power),Accuracy,0.607143,Always-ADHD,0.5,0.10714299999999999,True
+Linear SVM (Welch band power),Balanced_Accuracy,0.607143,Always-ADHD,0.5,0.10714299999999999,True
+Linear SVM (Welch band power),F1,0.685714,Always-ADHD,0.666667,0.019047000000000036,True
+Linear SVM (Welch band power),ROC_AUC,0.632653,Stratified Dummy,0.571429,0.061224000000000056,True

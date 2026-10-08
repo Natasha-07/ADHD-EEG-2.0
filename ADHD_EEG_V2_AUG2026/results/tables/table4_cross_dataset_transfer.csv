@@ -1,0 +1,13 @@
+Transfer direction,Model,N target subjects,Accuracy,Balanced Accuracy,Sensitivity,Specificity,Precision,F1,ROC-AUC,PR-AUC
+Child dataset -> Adult dataset,Always-ADHD,16,0.5,0.5,1.0,0.0,0.5,0.666667,0.5,0.5
+Child dataset -> Adult dataset,Always-Control,16,0.5,0.5,0.0,1.0,0.0,0.0,0.5,0.5
+Child dataset -> Adult dataset,Majority-class Dummy,16,0.5,0.5,1.0,0.0,0.5,0.666667,0.5,0.5
+Child dataset -> Adult dataset,Stratified Dummy,16,0.5,0.5,1.0,0.0,0.5,0.666667,0.09375,0.364906
+Child dataset -> Adult dataset,Logistic Regression (Welch band power),16,0.5,0.5,0.125,0.875,0.5,0.2,0.515625,0.56047
+Child dataset -> Adult dataset,Linear SVM (Welch band power),16,0.4375,0.4375,0.0,0.875,0.0,0.0,0.53125,0.563141
+Adult dataset -> Child dataset,Always-ADHD,121,0.504132,0.5,1.0,0.0,0.504132,0.67033,0.5,0.504132
+Adult dataset -> Child dataset,Always-Control,121,0.495868,0.5,0.0,1.0,0.0,0.0,0.5,0.504132
+Adult dataset -> Child dataset,Majority-class Dummy,121,0.495868,0.5,0.0,1.0,0.0,0.0,0.5,0.504132
+Adult dataset -> Child dataset,Stratified Dummy,121,0.578512,0.578689,0.557377,0.6,0.586207,0.571429,0.561885,0.54655
+Adult dataset -> Child dataset,Logistic Regression (Welch band power),121,0.603306,0.604508,0.459016,0.75,0.651163,0.538462,0.692623,0.666123
+Adult dataset -> Child dataset,Linear SVM (Welch band power),121,0.578512,0.579781,0.42623,0.733333,0.619048,0.504854,0.687158,0.673964

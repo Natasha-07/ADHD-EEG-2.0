@@ -1,0 +1,14 @@
+output,source_file,source_columns,analysis_level,models,verified_PASS_FAIL
+tables/table1_dataset_characteristics.*,dataset_summary.csv; dataset_comparison_table.csv,See source artifact plus table_generation_report.md / figure_generation_report.md,cohort/subject/epoch,datasets,PASS
+tables/table2_main_subject_level_performance.*,baselines/baseline_results_all_scenarios.csv,See source artifact plus table_generation_report.md / figure_generation_report.md,Subject,six baselines; neural rows NA,PASS
+tables/table3_repeated_subject_grouped_cv.*,cross_validation/cv_summary.csv,See source artifact plus table_generation_report.md / figure_generation_report.md,Subject,all models,PASS (unavailability stated)
+tables/table4_cross_dataset_transfer.*,baselines/baseline_results_all_scenarios.csv,See source artifact plus table_generation_report.md / figure_generation_report.md,Target subject,six baselines,PASS
+tables/table5_statistical_model_comparisons.*,statistics/model_comparisons.csv,See source artifact plus table_generation_report.md / figure_generation_report.md,Subject,baseline pairs,PASS
+tables/confusion_matrix_summary.*,baselines/baseline_results_all_scenarios.csv,See source artifact plus table_generation_report.md / figure_generation_report.md,Subject,six baselines,PASS
+figures/figure1_*,dataset_summary.csv,See source artifact plus table_generation_report.md / figure_generation_report.md,Subject,child/adult cohorts,PASS
+figures/figure2_*,baselines/baseline_results_all_scenarios.csv; statistics/confidence_intervals.csv,See source artifact plus table_generation_report.md / figure_generation_report.md,Subject,six baselines,PASS
+figures/figure3_*,baselines/baseline_results_all_scenarios.csv,See source artifact plus table_generation_report.md / figure_generation_report.md,Subject,six baselines,PASS
+figures/figure4_*,statistics/confidence_intervals.csv,See source artifact plus table_generation_report.md / figure_generation_report.md,Target subject,six baselines,PASS
+figures/figure5_*,xai/electrode_attributions.csv,See source artifact plus table_generation_report.md / figure_generation_report.md,Subject attribution,CNN/LSTM verification samples,PASS with limited sample
+figures/figure6_*,xai/xai_stability.csv,See source artifact plus table_generation_report.md / figure_generation_report.md,Subject attribution profile,CNN/LSTM verification samples,PASS with limited sample
+figures/*_topoplot.*,xai/electrode_attributions.csv,See source artifact plus table_generation_report.md / figure_generation_report.md,Subject attribution,CNN/LSTM verification samples,PASS sensor-space only

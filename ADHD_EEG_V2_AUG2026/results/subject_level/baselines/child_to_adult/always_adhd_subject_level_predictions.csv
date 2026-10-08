@@ -1,0 +1,17 @@
+subject_id,dataset,true_label,number_of_epochs,mean_probability,median_probability,predicted_label,primary_aggregation,primary_threshold
+adult_adhd_1,adult,1,614,1.0,1.0,1,mean,0.5
+adult_adhd_2,adult,1,616,1.0,1.0,1,mean,0.5
+adult_adhd_3,adult,1,627,1.0,1.0,1,mean,0.5
+adult_adhd_4,adult,1,618,1.0,1.0,1,mean,0.5
+adult_adhd_5,adult,1,614,1.0,1.0,1,mean,0.5
+adult_adhd_6,adult,1,624,1.0,1.0,1,mean,0.5
+adult_adhd_7,adult,1,616,1.0,1.0,1,mean,0.5
+adult_adhd_8,adult,1,614,1.0,1.0,1,mean,0.5
+adult_control_1,adult,0,657,1.0,1.0,1,mean,0.5
+adult_control_2,adult,0,620,1.0,1.0,1,mean,0.5
+adult_control_3,adult,0,620,1.0,1.0,1,mean,0.5
+adult_control_4,adult,0,614,1.0,1.0,1,mean,0.5
+adult_control_5,adult,0,627,1.0,1.0,1,mean,0.5
+adult_control_6,adult,0,610,1.0,1.0,1,mean,0.5
+adult_control_7,adult,0,620,1.0,1.0,1,mean,0.5
+adult_control_8,adult,0,620,1.0,1.0,1,mean,0.5

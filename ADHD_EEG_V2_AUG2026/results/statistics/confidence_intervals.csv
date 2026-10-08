@@ -1,0 +1,221 @@
+analysis_type,scenario,model,metric,n_subjects,estimate,ci95_low,ci95_high,unit,procedure,subject_class
+subject_bootstrap,adult_to_child,Always-ADHD,Accuracy,121,0.5041322314049587,0.5041322314049587,0.5041322314049587,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,adult_to_child,Always-ADHD,Balanced_Accuracy,121,0.5,0.5,0.5,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,adult_to_child,Always-ADHD,Sensitivity,121,1.0,1.0,1.0,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,adult_to_child,Always-ADHD,Specificity,121,0.0,0.0,0.0,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,adult_to_child,Always-ADHD,Precision,121,0.5041322314049587,0.5041322314049587,0.5041322314049587,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,adult_to_child,Always-ADHD,F1,121,0.6703296703296704,0.6703296703296704,0.6703296703296704,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,adult_to_child,Always-ADHD,ROC_AUC,121,0.5,0.5,0.5,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,adult_to_child,Always-ADHD,PR_AUC,121,1.0,0.31416819290664805,0.31416819290664805,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,adult_to_child,Always-Control,Accuracy,121,0.49586776859504134,0.49586776859504134,0.49586776859504134,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,adult_to_child,Always-Control,Balanced_Accuracy,121,0.5,0.5,0.5,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,adult_to_child,Always-Control,Sensitivity,121,0.0,0.0,0.0,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,adult_to_child,Always-Control,Specificity,121,1.0,1.0,1.0,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,adult_to_child,Always-Control,Precision,121,,,,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,adult_to_child,Always-Control,F1,121,,,,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,adult_to_child,Always-Control,ROC_AUC,121,0.5,0.5,0.5,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,adult_to_child,Always-Control,PR_AUC,121,1.0,0.31416819290664805,0.31416819290664805,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,adult_to_child,Linear SVM (Welch band power),Accuracy,121,0.5785123966942148,0.49586776859504134,0.6611570247933884,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,adult_to_child,Linear SVM (Welch band power),Balanced_Accuracy,121,0.5797814207650273,0.4972677595628415,0.6627117486338797,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,adult_to_child,Linear SVM (Welch band power),Sensitivity,121,0.4262295081967213,0.3114754098360656,0.5573770491803278,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,adult_to_child,Linear SVM (Welch band power),Specificity,121,0.7333333333333333,0.6166666666666667,0.85,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,adult_to_child,Linear SVM (Welch band power),Precision,121,0.6190476190476191,0.5,0.7381912442396313,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,adult_to_child,Linear SVM (Welch band power),F1,121,0.5048543689320388,0.3883346542500495,0.6226718019733425,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,adult_to_child,Linear SVM (Welch band power),ROC_AUC,121,0.6871584699453552,0.5844125683060108,0.7781489071038251,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,adult_to_child,Linear SVM (Welch band power),PR_AUC,121,0.673964175130067,0.5755011372839999,0.7685926790664623,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,adult_to_child,Logistic Regression (Welch band power),Accuracy,121,0.6033057851239669,0.5206611570247934,0.6859504132231405,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,adult_to_child,Logistic Regression (Welch band power),Balanced_Accuracy,121,0.6045081967213115,0.5211714480874317,0.6872950819672131,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,adult_to_child,Logistic Regression (Welch band power),Sensitivity,121,0.45901639344262296,0.3442622950819672,0.5901639344262295,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,adult_to_child,Logistic Regression (Welch band power),Specificity,121,0.75,0.6333333333333333,0.85,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,adult_to_child,Logistic Regression (Welch band power),Precision,121,0.6511627906976745,0.5294117647058824,0.7727272727272727,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,adult_to_child,Logistic Regression (Welch band power),F1,121,0.5384615384615384,0.4242132867132867,0.6476190476190475,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,adult_to_child,Logistic Regression (Welch band power),ROC_AUC,121,0.6926229508196722,0.594474043715847,0.7857991803278688,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,adult_to_child,Logistic Regression (Welch band power),PR_AUC,121,0.6661225458244863,0.5722730278334325,0.7618155582732241,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,adult_to_child,Majority-class Dummy,Accuracy,121,0.49586776859504134,0.49586776859504134,0.49586776859504134,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,adult_to_child,Majority-class Dummy,Balanced_Accuracy,121,0.5,0.5,0.5,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,adult_to_child,Majority-class Dummy,Sensitivity,121,0.0,0.0,0.0,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,adult_to_child,Majority-class Dummy,Specificity,121,1.0,1.0,1.0,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,adult_to_child,Majority-class Dummy,Precision,121,,,,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,adult_to_child,Majority-class Dummy,F1,121,,,,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,adult_to_child,Majority-class Dummy,ROC_AUC,121,0.5,0.5,0.5,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,adult_to_child,Majority-class Dummy,PR_AUC,121,1.0,0.31416819290664805,0.31416819290664805,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,adult_to_child,Stratified Dummy,Accuracy,121,0.5785123966942148,0.48760330578512395,0.6611570247933884,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,adult_to_child,Stratified Dummy,Balanced_Accuracy,121,0.5786885245901638,0.4878381147540984,0.661478825136612,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,adult_to_child,Stratified Dummy,Sensitivity,121,0.5573770491803278,0.4262295081967213,0.6721311475409836,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,adult_to_child,Stratified Dummy,Specificity,121,0.6,0.48333333333333334,0.7166666666666667,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,adult_to_child,Stratified Dummy,Precision,121,0.5862068965517241,0.4918032786885246,0.68,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,adult_to_child,Stratified Dummy,F1,121,0.5714285714285715,0.47324283450957794,0.6666666666666666,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,adult_to_child,Stratified Dummy,ROC_AUC,121,0.5618852459016394,0.4579200819672131,0.6624487704918033,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,adult_to_child,Stratified Dummy,PR_AUC,121,0.5429913014150161,0.4630092794010058,0.6398335907143146,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,child_to_adult,Always-ADHD,Accuracy,16,0.5,0.5,0.5,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,child_to_adult,Always-ADHD,Balanced_Accuracy,16,0.5,0.5,0.5,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,child_to_adult,Always-ADHD,Sensitivity,16,1.0,1.0,1.0,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,child_to_adult,Always-ADHD,Specificity,16,0.0,0.0,0.0,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,child_to_adult,Always-ADHD,Precision,16,0.5,0.5,0.5,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,child_to_adult,Always-ADHD,F1,16,0.6666666666666666,0.6666666666666666,0.6666666666666666,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,child_to_adult,Always-ADHD,ROC_AUC,16,0.5,0.5,0.5,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,child_to_adult,Always-ADHD,PR_AUC,16,1.0,0.33712814962814963,0.33712814962814963,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,child_to_adult,Always-Control,Accuracy,16,0.5,0.5,0.5,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,child_to_adult,Always-Control,Balanced_Accuracy,16,0.5,0.5,0.5,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,child_to_adult,Always-Control,Sensitivity,16,0.0,0.0,0.0,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,child_to_adult,Always-Control,Specificity,16,1.0,1.0,1.0,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,child_to_adult,Always-Control,Precision,16,,,,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,child_to_adult,Always-Control,F1,16,,,,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,child_to_adult,Always-Control,ROC_AUC,16,0.5,0.5,0.5,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,child_to_adult,Always-Control,PR_AUC,16,1.0,0.33712814962814963,0.33712814962814963,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,child_to_adult,Linear SVM (Welch band power),Accuracy,16,0.4375,0.3125,0.5,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,child_to_adult,Linear SVM (Welch band power),Balanced_Accuracy,16,0.4375,0.3125,0.5,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,child_to_adult,Linear SVM (Welch band power),Sensitivity,16,0.0,0.0,0.0,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,child_to_adult,Linear SVM (Welch band power),Specificity,16,0.875,0.625,1.0,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,child_to_adult,Linear SVM (Welch band power),Precision,16,0.0,0.0,0.0,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,child_to_adult,Linear SVM (Welch band power),F1,16,0.0,0.0,0.0,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,child_to_adult,Linear SVM (Welch band power),ROC_AUC,16,0.53125,0.234375,0.8125,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,child_to_adult,Linear SVM (Welch band power),PR_AUC,16,0.5631410256410256,0.40622788669663673,0.870842803030303,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,child_to_adult,Logistic Regression (Welch band power),Accuracy,16,0.5,0.375,0.625,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,child_to_adult,Logistic Regression (Welch band power),Balanced_Accuracy,16,0.5,0.375,0.625,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,child_to_adult,Logistic Regression (Welch band power),Sensitivity,16,0.125,0.0,0.375,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,child_to_adult,Logistic Regression (Welch band power),Specificity,16,0.875,0.625,1.0,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,child_to_adult,Logistic Regression (Welch band power),Precision,16,0.5,0.0,1.0,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,child_to_adult,Logistic Regression (Welch band power),F1,16,0.2,0.0,0.5,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,child_to_adult,Logistic Regression (Welch band power),ROC_AUC,16,0.515625,0.21875,0.8125,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,child_to_adult,Logistic Regression (Welch band power),PR_AUC,16,0.5604700854700855,0.39895143918581416,0.8613129058441559,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,child_to_adult,Majority-class Dummy,Accuracy,16,0.5,0.5,0.5,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,child_to_adult,Majority-class Dummy,Balanced_Accuracy,16,0.5,0.5,0.5,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,child_to_adult,Majority-class Dummy,Sensitivity,16,1.0,1.0,1.0,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,child_to_adult,Majority-class Dummy,Specificity,16,0.0,0.0,0.0,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,child_to_adult,Majority-class Dummy,Precision,16,0.5,0.5,0.5,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,child_to_adult,Majority-class Dummy,F1,16,0.6666666666666666,0.6666666666666666,0.6666666666666666,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,child_to_adult,Majority-class Dummy,ROC_AUC,16,0.5,0.5,0.5,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,child_to_adult,Majority-class Dummy,PR_AUC,16,1.0,0.33712814962814963,0.33712814962814963,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,child_to_adult,Stratified Dummy,Accuracy,16,0.5,0.5,0.5,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,child_to_adult,Stratified Dummy,Balanced_Accuracy,16,0.5,0.5,0.5,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,child_to_adult,Stratified Dummy,Sensitivity,16,1.0,1.0,1.0,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,child_to_adult,Stratified Dummy,Specificity,16,0.0,0.0,0.0,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,child_to_adult,Stratified Dummy,Precision,16,0.5,0.5,0.5,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,child_to_adult,Stratified Dummy,F1,16,0.6666666666666666,0.6666666666666666,0.6666666666666666,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,child_to_adult,Stratified Dummy,ROC_AUC,16,0.09375,0.0,0.328125,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,child_to_adult,Stratified Dummy,PR_AUC,16,0.36490592740592737,0.33712814962814963,0.5482392607392608,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,combined_holdout,Always-ADHD,Accuracy,28,0.5,0.5,0.5,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,combined_holdout,Always-ADHD,Balanced_Accuracy,28,0.5,0.5,0.5,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,combined_holdout,Always-ADHD,Sensitivity,28,1.0,1.0,1.0,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,combined_holdout,Always-ADHD,Specificity,28,0.0,0.0,0.0,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,combined_holdout,Always-ADHD,Precision,28,0.5,0.5,0.5,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,combined_holdout,Always-ADHD,F1,28,0.6666666666666666,0.6666666666666666,0.6666666666666666,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,combined_holdout,Always-ADHD,ROC_AUC,28,0.5,0.5,0.5,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,combined_holdout,Always-ADHD,PR_AUC,28,1.0,0.3243912875959585,0.3243912875959585,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,combined_holdout,Always-Control,Accuracy,28,0.5,0.5,0.5,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,combined_holdout,Always-Control,Balanced_Accuracy,28,0.5,0.5,0.5,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,combined_holdout,Always-Control,Sensitivity,28,0.0,0.0,0.0,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,combined_holdout,Always-Control,Specificity,28,1.0,1.0,1.0,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,combined_holdout,Always-Control,Precision,28,,,,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,combined_holdout,Always-Control,F1,28,,,,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,combined_holdout,Always-Control,ROC_AUC,28,0.5,0.5,0.5,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,combined_holdout,Always-Control,PR_AUC,28,1.0,0.3243912875959585,0.3243912875959585,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,combined_holdout,Linear SVM (Welch band power),Accuracy,28,0.6071428571428571,0.4642857142857143,0.7857142857142857,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,combined_holdout,Linear SVM (Welch band power),Balanced_Accuracy,28,0.6071428571428571,0.4642857142857143,0.7857142857142857,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,combined_holdout,Linear SVM (Welch band power),Sensitivity,28,0.8571428571428571,0.6428571428571429,1.0,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,combined_holdout,Linear SVM (Welch band power),Specificity,28,0.35714285714285715,0.14285714285714285,0.6428571428571429,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,combined_holdout,Linear SVM (Welch band power),Precision,28,0.5714285714285714,0.47619047619047616,0.7058823529411765,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,combined_holdout,Linear SVM (Welch band power),F1,28,0.6857142857142857,0.5625000000000001,0.8125000000000001,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,combined_holdout,Linear SVM (Welch band power),ROC_AUC,28,0.6326530612244898,0.3979591836734694,0.8469387755102041,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,combined_holdout,Linear SVM (Welch band power),PR_AUC,28,0.5950029844713806,0.4471155873121734,0.8458900986283839,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,combined_holdout,Logistic Regression (Welch band power),Accuracy,28,0.6071428571428571,0.4642857142857143,0.75,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,combined_holdout,Logistic Regression (Welch band power),Balanced_Accuracy,28,0.6071428571428571,0.4642857142857143,0.75,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,combined_holdout,Logistic Regression (Welch band power),Sensitivity,28,0.8571428571428571,0.6428571428571429,1.0,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,combined_holdout,Logistic Regression (Welch band power),Specificity,28,0.35714285714285715,0.14285714285714285,0.6428571428571429,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,combined_holdout,Logistic Regression (Welch band power),Precision,28,0.5714285714285714,0.47619047619047616,0.7,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,combined_holdout,Logistic Regression (Welch band power),F1,28,0.6857142857142857,0.5714285714285714,0.8,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,combined_holdout,Logistic Regression (Welch band power),ROC_AUC,28,0.6479591836734694,0.4387755102040816,0.8317602040816325,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,combined_holdout,Logistic Regression (Welch band power),PR_AUC,28,0.6188619153955288,0.4786398537785777,0.852777019170139,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,combined_holdout,Majority-class Dummy,Accuracy,28,0.5,0.5,0.5,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,combined_holdout,Majority-class Dummy,Balanced_Accuracy,28,0.5,0.5,0.5,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,combined_holdout,Majority-class Dummy,Sensitivity,28,0.0,0.0,0.0,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,combined_holdout,Majority-class Dummy,Specificity,28,1.0,1.0,1.0,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,combined_holdout,Majority-class Dummy,Precision,28,,,,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,combined_holdout,Majority-class Dummy,F1,28,,,,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,combined_holdout,Majority-class Dummy,ROC_AUC,28,0.5,0.5,0.5,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,combined_holdout,Majority-class Dummy,PR_AUC,28,1.0,0.3243912875959585,0.3243912875959585,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,combined_holdout,Stratified Dummy,Accuracy,28,0.4642857142857143,0.32142857142857145,0.6071428571428571,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,combined_holdout,Stratified Dummy,Balanced_Accuracy,28,0.4642857142857143,0.3214285714285714,0.6071428571428572,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,combined_holdout,Stratified Dummy,Sensitivity,28,0.14285714285714285,0.0,0.35714285714285715,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,combined_holdout,Stratified Dummy,Specificity,28,0.7857142857142857,0.5714285714285714,1.0,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,combined_holdout,Stratified Dummy,Precision,28,0.4,0.0,0.8598214285714281,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,combined_holdout,Stratified Dummy,F1,28,0.21052631578947364,0.0,0.45454545454545453,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,combined_holdout,Stratified Dummy,ROC_AUC,28,0.5714285714285714,0.34170918367346936,0.7858418367346938,subject,stratified subject bootstrap percentile CI,
+subject_bootstrap,combined_holdout,Stratified Dummy,PR_AUC,28,0.5551682529874893,0.4230282866387021,0.7686634100736676,subject,stratified subject bootstrap percentile CI,
+xai_subject_bootstrap,combined_holdout,CNN,Mean absolute attribution: C3,3,0.0004677288282739834,0.0003484600456431,0.0005355808098101501,subject,subject bootstrap after within-subject seed aggregation,Control
+xai_subject_bootstrap,combined_holdout,CNN,Mean absolute attribution: C4,3,0.0005940150197905333,0.00052222292288205,0.0006955649878363498,subject,subject bootstrap after within-subject seed aggregation,Control
+xai_subject_bootstrap,combined_holdout,CNN,Mean absolute attribution: Cz,3,0.0007962672389111833,0.0005936516390647,0.0009906400712982502,subject,subject bootstrap after within-subject seed aggregation,Control
+xai_subject_bootstrap,combined_holdout,CNN,Mean absolute attribution: F3,3,0.0007286515901795999,0.0005596236442215,0.0008403413856285288,subject,subject bootstrap after within-subject seed aggregation,Control
+xai_subject_bootstrap,combined_holdout,CNN,Mean absolute attribution: F4,3,0.00089390355666785,0.0005340396019164,0.00135890120873225,subject,subject bootstrap after within-subject seed aggregation,Control
+xai_subject_bootstrap,combined_holdout,CNN,Mean absolute attribution: F7,3,0.0003192983082650333,0.0002686618099687,0.00037152702861925,subject,subject bootstrap after within-subject seed aggregation,Control
+xai_subject_bootstrap,combined_holdout,CNN,Mean absolute attribution: F8,3,0.0006614698747094668,0.00038754216802765,0.0009462405287194499,subject,subject bootstrap after within-subject seed aggregation,Control
+xai_subject_bootstrap,combined_holdout,CNN,Mean absolute attribution: Fp1,3,0.00025514479784753333,0.00020384139497759999,0.00030659179901695,subject,subject bootstrap after within-subject seed aggregation,Control
+xai_subject_bootstrap,combined_holdout,CNN,Mean absolute attribution: Fp2,3,0.000309767453776,0.00018245640967505,0.00042361624946345004,subject,subject bootstrap after within-subject seed aggregation,Control
+xai_subject_bootstrap,combined_holdout,CNN,Mean absolute attribution: Fz,3,0.0009088268561753835,0.0006664057436864499,0.0011672420660033,subject,subject bootstrap after within-subject seed aggregation,Control
+xai_subject_bootstrap,combined_holdout,CNN,Mean absolute attribution: O1,3,0.0006068239357166667,0.00048712690477255006,0.0006735276037942935,subject,subject bootstrap after within-subject seed aggregation,Control
+xai_subject_bootstrap,combined_holdout,CNN,Mean absolute attribution: O2,3,0.0004040637334885833,0.00028725543234025,0.0005627963982987501,subject,subject bootstrap after within-subject seed aggregation,Control
+xai_subject_bootstrap,combined_holdout,CNN,Mean absolute attribution: P3,3,0.0004362076967178,0.0003627153055276,0.00048682044143785004,subject,subject bootstrap after within-subject seed aggregation,Control
+xai_subject_bootstrap,combined_holdout,CNN,Mean absolute attribution: P4,3,0.0008098966888306667,0.0005721770867239001,0.0010576856147963,subject,subject bootstrap after within-subject seed aggregation,Control
+xai_subject_bootstrap,combined_holdout,CNN,Mean absolute attribution: P7,3,0.00033308161073359997,0.00026395247550675,0.00037392409285525,subject,subject bootstrap after within-subject seed aggregation,Control
+xai_subject_bootstrap,combined_holdout,CNN,Mean absolute attribution: P8,3,0.0005982839405381,0.000328256341163,0.0010531511798035,subject,subject bootstrap after within-subject seed aggregation,Control
+xai_subject_bootstrap,combined_holdout,CNN,Mean absolute attribution: Pz,3,0.0005093470390420166,0.00041631958447395,0.00056206324370575,subject,subject bootstrap after within-subject seed aggregation,Control
+xai_subject_bootstrap,combined_holdout,CNN,Mean absolute attribution: T7,3,0.00027346341084918334,0.0002447000078973,0.0002952319628093,subject,subject bootstrap after within-subject seed aggregation,Control
+xai_subject_bootstrap,combined_holdout,CNN,Mean absolute attribution: T8,3,0.0007308148196898001,0.0005567139887716,0.0008937749371398001,subject,subject bootstrap after within-subject seed aggregation,Control
+xai_subject_bootstrap,combined_holdout,CNN,Mean absolute attribution: C3,3,0.00053713846621875,0.00036631357215805,0.0006268644938244999,subject,subject bootstrap after within-subject seed aggregation,ADHD
+xai_subject_bootstrap,combined_holdout,CNN,Mean absolute attribution: C4,3,0.0007275042104689499,0.0005825964479298987,0.0010050120181404,subject,subject bootstrap after within-subject seed aggregation,ADHD
+xai_subject_bootstrap,combined_holdout,CNN,Mean absolute attribution: Cz,3,0.001534999377327,0.00066060575773005,0.0031954429578035497,subject,subject bootstrap after within-subject seed aggregation,ADHD
+xai_subject_bootstrap,combined_holdout,CNN,Mean absolute attribution: F3,3,0.0010167836347439168,0.0006054906698409,0.00148725975304835,subject,subject bootstrap after within-subject seed aggregation,ADHD
+xai_subject_bootstrap,combined_holdout,CNN,Mean absolute attribution: F4,3,0.0007099762733559668,0.00046180264325810003,0.0009224617388099002,subject,subject bootstrap after within-subject seed aggregation,ADHD
+xai_subject_bootstrap,combined_holdout,CNN,Mean absolute attribution: F7,3,0.0004722974893714,0.00030214105208865,0.0005863473925273,subject,subject bootstrap after within-subject seed aggregation,ADHD
+xai_subject_bootstrap,combined_holdout,CNN,Mean absolute attribution: F8,3,0.0005316072686885167,0.00035511053283694997,0.0007950978470034,subject,subject bootstrap after within-subject seed aggregation,ADHD
+xai_subject_bootstrap,combined_holdout,CNN,Mean absolute attribution: Fp1,3,0.00029743925066814996,0.00029043250833635,0.00030796469945919996,subject,subject bootstrap after within-subject seed aggregation,ADHD
+xai_subject_bootstrap,combined_holdout,CNN,Mean absolute attribution: Fp2,3,0.00040725705427270006,0.00034166793921025,0.0004971449234290001,subject,subject bootstrap after within-subject seed aggregation,ADHD
+xai_subject_bootstrap,combined_holdout,CNN,Mean absolute attribution: Fz,3,0.0011786058215268668,0.000825489667477,0.0014922254486009002,subject,subject bootstrap after within-subject seed aggregation,ADHD
+xai_subject_bootstrap,combined_holdout,CNN,Mean absolute attribution: O1,3,0.0008314025956981833,0.0004708122287411,0.0012139523169025501,subject,subject bootstrap after within-subject seed aggregation,ADHD
+xai_subject_bootstrap,combined_holdout,CNN,Mean absolute attribution: O2,3,0.0003795111745905834,0.00036737952905235,0.00039956891851030004,subject,subject bootstrap after within-subject seed aggregation,ADHD
+xai_subject_bootstrap,combined_holdout,CNN,Mean absolute attribution: P3,3,0.0006956573003359333,0.00031630125886290003,0.00120312609942625,subject,subject bootstrap after within-subject seed aggregation,ADHD
+xai_subject_bootstrap,combined_holdout,CNN,Mean absolute attribution: P4,3,0.0013453365633418833,0.00072119475225915,0.0024345568381249003,subject,subject bootstrap after within-subject seed aggregation,ADHD
+xai_subject_bootstrap,combined_holdout,CNN,Mean absolute attribution: P7,3,0.0005144320894032334,0.00024106183263929997,0.0009104645578190499,subject,subject bootstrap after within-subject seed aggregation,ADHD
+xai_subject_bootstrap,combined_holdout,CNN,Mean absolute attribution: P8,3,0.0009114851321403835,0.00038730303640475,0.0018531039240769498,subject,subject bootstrap after within-subject seed aggregation,ADHD
+xai_subject_bootstrap,combined_holdout,CNN,Mean absolute attribution: Pz,3,0.0005200495943426335,0.00042503762233529996,0.0006480074953287001,subject,subject bootstrap after within-subject seed aggregation,ADHD
+xai_subject_bootstrap,combined_holdout,CNN,Mean absolute attribution: T7,3,0.00050548579019955,0.0002264421200379,0.0009966517973225499,subject,subject bootstrap after within-subject seed aggregation,ADHD
+xai_subject_bootstrap,combined_holdout,CNN,Mean absolute attribution: T8,3,0.0005826824538719667,0.00026555114891375,0.0008374943863600001,subject,subject bootstrap after within-subject seed aggregation,ADHD
+xai_subject_bootstrap,combined_holdout,LSTM,Mean absolute attribution: C3,2,6.501071538875708e-05,4.8843045988178346e-05,8.117838478933581e-05,subject,subject bootstrap after within-subject seed aggregation,Control
+xai_subject_bootstrap,combined_holdout,LSTM,Mean absolute attribution: C4,2,8.732889909878646e-05,8.196722774300724e-05,9.269057045456566e-05,subject,subject bootstrap after within-subject seed aggregation,Control
+xai_subject_bootstrap,combined_holdout,LSTM,Mean absolute attribution: Cz,2,7.510786599595719e-05,6.612813740503043e-05,8.408759458688394e-05,subject,subject bootstrap after within-subject seed aggregation,Control
+xai_subject_bootstrap,combined_holdout,LSTM,Mean absolute attribution: F3,2,3.506151551846415e-05,2.7846855118696116e-05,4.2276175918232184e-05,subject,subject bootstrap after within-subject seed aggregation,Control
+xai_subject_bootstrap,combined_holdout,LSTM,Mean absolute attribution: F4,2,0.00011590429949135463,0.00011204567636009773,0.00011976292262261153,subject,subject bootstrap after within-subject seed aggregation,Control
+xai_subject_bootstrap,combined_holdout,LSTM,Mean absolute attribution: F7,2,2.139094226549787e-05,1.894632123367046e-05,2.383556329732528e-05,subject,subject bootstrap after within-subject seed aggregation,Control
+xai_subject_bootstrap,combined_holdout,LSTM,Mean absolute attribution: F8,2,2.5471350227235234e-05,1.592667058503139e-05,3.501602986943908e-05,subject,subject bootstrap after within-subject seed aggregation,Control
+xai_subject_bootstrap,combined_holdout,LSTM,Mean absolute attribution: Fp1,2,3.084930062868807e-05,2.1945837488601683e-05,3.975276376877446e-05,subject,subject bootstrap after within-subject seed aggregation,Control
+xai_subject_bootstrap,combined_holdout,LSTM,Mean absolute attribution: Fp2,2,3.218787924197386e-05,2.912935815402307e-05,3.5246400329924654e-05,subject,subject bootstrap after within-subject seed aggregation,Control
+xai_subject_bootstrap,combined_holdout,LSTM,Mean absolute attribution: Fz,2,3.515517255436862e-05,3.036325506400317e-05,3.994709004473407e-05,subject,subject bootstrap after within-subject seed aggregation,Control
+xai_subject_bootstrap,combined_holdout,LSTM,Mean absolute attribution: O1,2,2.876669623219641e-05,1.674626037129201e-05,4.078713209310081e-05,subject,subject bootstrap after within-subject seed aggregation,Control
+xai_subject_bootstrap,combined_holdout,LSTM,Mean absolute attribution: O2,2,7.864442704884724e-05,7.180809188866988e-05,8.548076220902462e-05,subject,subject bootstrap after within-subject seed aggregation,Control
+xai_subject_bootstrap,combined_holdout,LSTM,Mean absolute attribution: P3,2,2.6313289936297224e-05,1.9541935671441024e-05,3.3084644201153424e-05,subject,subject bootstrap after within-subject seed aggregation,Control
+xai_subject_bootstrap,combined_holdout,LSTM,Mean absolute attribution: P4,2,8.429606987192325e-05,7.416891821776517e-05,9.442322152608135e-05,subject,subject bootstrap after within-subject seed aggregation,Control
+xai_subject_bootstrap,combined_holdout,LSTM,Mean absolute attribution: P7,2,4.022371001610736e-05,2.754008323790913e-05,5.290733679430559e-05,subject,subject bootstrap after within-subject seed aggregation,Control
+xai_subject_bootstrap,combined_holdout,LSTM,Mean absolute attribution: P8,2,3.609134660109703e-05,1.659112376728444e-05,5.5591569434909616e-05,subject,subject bootstrap after within-subject seed aggregation,Control
+xai_subject_bootstrap,combined_holdout,LSTM,Mean absolute attribution: Pz,2,2.6049414373119362e-05,2.3566184609080668e-05,2.853264413715806e-05,subject,subject bootstrap after within-subject seed aggregation,Control
+xai_subject_bootstrap,combined_holdout,LSTM,Mean absolute attribution: T7,2,1.8721712194746942e-05,1.3147294794180198e-05,2.4296129595313687e-05,subject,subject bootstrap after within-subject seed aggregation,Control
+xai_subject_bootstrap,combined_holdout,LSTM,Mean absolute attribution: T8,2,5.8018976233142894e-05,5.651041828969028e-05,5.952753417659551e-05,subject,subject bootstrap after within-subject seed aggregation,Control
+xai_subject_bootstrap,combined_holdout,LSTM,Mean absolute attribution: C3,2,3.574301393882706e-05,2.4917561631809804e-06,6.899427171447314e-05,subject,subject bootstrap after within-subject seed aggregation,ADHD
+xai_subject_bootstrap,combined_holdout,LSTM,Mean absolute attribution: C4,2,3.6479337381933874e-05,2.2673677904094802e-06,7.069130697345827e-05,subject,subject bootstrap after within-subject seed aggregation,ADHD
+xai_subject_bootstrap,combined_holdout,LSTM,Mean absolute attribution: Cz,2,3.39930766699581e-05,2.5889095240927418e-06,6.539724381582346e-05,subject,subject bootstrap after within-subject seed aggregation,ADHD
+xai_subject_bootstrap,combined_holdout,LSTM,Mean absolute attribution: F3,2,2.181275561952134e-05,2.3997826019694912e-06,4.122572863707319e-05,subject,subject bootstrap after within-subject seed aggregation,ADHD
+xai_subject_bootstrap,combined_holdout,LSTM,Mean absolute attribution: F4,2,7.374344795604016e-05,3.0469718694803305e-06,0.00014443992404259998,subject,subject bootstrap after within-subject seed aggregation,ADHD
+xai_subject_bootstrap,combined_holdout,LSTM,Mean absolute attribution: F7,2,1.565336560815922e-05,2.022926310019102e-06,2.9283804906299338e-05,subject,subject bootstrap after within-subject seed aggregation,ADHD
+xai_subject_bootstrap,combined_holdout,LSTM,Mean absolute attribution: F8,2,1.6900063883440453e-05,3.469651801424334e-06,3.033047596545657e-05,subject,subject bootstrap after within-subject seed aggregation,ADHD
+xai_subject_bootstrap,combined_holdout,LSTM,Mean absolute attribution: Fp1,2,2.0040362755935348e-05,3.081073145949631e-06,3.6999652365921065e-05,subject,subject bootstrap after within-subject seed aggregation,ADHD
+xai_subject_bootstrap,combined_holdout,LSTM,Mean absolute attribution: Fp2,2,2.622887160441678e-05,2.925792273344996e-06,4.953195093548857e-05,subject,subject bootstrap after within-subject seed aggregation,ADHD
+xai_subject_bootstrap,combined_holdout,LSTM,Mean absolute attribution: Fz,2,2.9901738201942862e-05,6.560273391187366e-07,5.914744906476699e-05,subject,subject bootstrap after within-subject seed aggregation,ADHD
+xai_subject_bootstrap,combined_holdout,LSTM,Mean absolute attribution: O1,2,2.1956349883112125e-05,3.982682756031863e-06,3.993001701019239e-05,subject,subject bootstrap after within-subject seed aggregation,ADHD
+xai_subject_bootstrap,combined_holdout,LSTM,Mean absolute attribution: O2,2,4.783083619485444e-05,3.0773200023759273e-06,9.258435238733296e-05,subject,subject bootstrap after within-subject seed aggregation,ADHD
+xai_subject_bootstrap,combined_holdout,LSTM,Mean absolute attribution: P3,2,1.912677834070564e-05,3.2313331530531286e-06,3.5022223528358154e-05,subject,subject bootstrap after within-subject seed aggregation,ADHD
+xai_subject_bootstrap,combined_holdout,LSTM,Mean absolute attribution: P4,2,5.1405323574726935e-05,4.520790753304027e-06,9.828985639614984e-05,subject,subject bootstrap after within-subject seed aggregation,ADHD
+xai_subject_bootstrap,combined_holdout,LSTM,Mean absolute attribution: P7,2,3.4731182324776455e-05,1.6377649671994732e-06,6.782459968235344e-05,subject,subject bootstrap after within-subject seed aggregation,ADHD
+xai_subject_bootstrap,combined_holdout,LSTM,Mean absolute attribution: P8,2,1.1118615873328963e-05,3.5239457929492346e-06,1.871328595370869e-05,subject,subject bootstrap after within-subject seed aggregation,ADHD
+xai_subject_bootstrap,combined_holdout,LSTM,Mean absolute attribution: Pz,2,1.5007804734068486e-05,1.4703015267514274e-06,2.8545307941385545e-05,subject,subject bootstrap after within-subject seed aggregation,ADHD
+xai_subject_bootstrap,combined_holdout,LSTM,Mean absolute attribution: T7,2,1.001217890461703e-05,9.392199444846483e-07,1.9085137864749413e-05,subject,subject bootstrap after within-subject seed aggregation,ADHD
+xai_subject_bootstrap,combined_holdout,LSTM,Mean absolute attribution: T8,2,5.224053154505408e-05,1.586020289323642e-06,0.00010289504280078452,subject,subject bootstrap after within-subject seed aggregation,ADHD
